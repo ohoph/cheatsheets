@@ -26,7 +26,7 @@ Make, as an example, a reverse shell payload with metersploit:
 
 ### build executable with Ebowla
 
-!(https://raw.githubusercontent.com/ohoph/cheatsheats/master/ebowla/images/2019-12-13_09-42.png?token=ANDZTD52FKYQIOMKV3RBKUC56NLDI)
+![](https://raw.githubusercontent.com/ohoph/cheatsheats/master/ebowla/images/2019-12-13_09-42.png?token=ANDZTD52FKYQIOMKV3RBKUC56NLDI)
 
 ```python2 ebowla.py shell.exe genetic.config```
 
