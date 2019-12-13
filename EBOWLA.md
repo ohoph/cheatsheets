@@ -11,6 +11,7 @@
 change:
 
 output_type = GO
+
 payload_type = EXE
 
 Set at least one environment variable (computername = hostname),
