@@ -26,10 +26,22 @@ Make, as an example, a reverse shell payload with metersploit:
 
 ### build executable with Ebowla
 
-![](https://raw.githubusercontent.com/ohoph/cheatsheats/master/ebowla/images/2019-12-13_09-42.png?token=ANDZTD52FKYQIOMKV3RBKUC56NLDI)
-
 ```python2 ebowla.py shell.exe genetic.config```
+
+![](https://raw.githubusercontent.com/ohoph/cheatsheats/master/ebowla/images/2019-12-13_09-42.png?token=ANDZTD52FKYQIOMKV3RBKUC56NLDI)
 
 ```./build_x64_go.sh output/<outputfilefromfirststeps> <finalfilename>```
 
+![](https://raw.githubusercontent.com/ohoph/cheatsheats/master/ebowla/images/2019-12-13_09-47.png?token=ANDZTDZ4WQD7BAUW45VQUWK56NLHO)
+
 The finished, packed executable can be found in the **output** folder.
+
+### Results!
+
+### without Ebowla
+
+![](https://raw.githubusercontent.com/ohoph/cheatsheats/master/ebowla/images/2019-12-13_09-50.png?token=ANDZTD3RLAGGH5XC3FN3A2S56NLMI)
+
+### same executable with the use of Ebowla
+
+![](https://raw.githubusercontent.com/ohoph/cheatsheats/master/ebowla/images/2019-12-13_09-52.png?token=ANDZTD3BMQF7CAHDMEHEVZC56NLMQ)
